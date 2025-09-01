@@ -1,0 +1,104 @@
+
+* {
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.geral {
+    display: grid;
+    grid-template-columns: 1fr 2fr; 
+    height: 680px;
+}
+
+.left {
+    display: grid;
+    /* background-color: rgb(156, 97, 196); */
+     grid-template-rows: repeat(1fr 1fr 1fr);
+     text-algin:center;
+}
+
+.img-perfil {
+    background-color: rgb(40, 82, 82);
+}
+
+.contato {
+     background-color: rgb(45, 114, 114);
+}
+
+.formacao {
+    background-color: rgb(161, 224, 224);
+}
+
+
+.right {
+    display: grid;
+    grid-template-rows: repeat( 1fr);
+    background-color: blueviolet;
+}
+
+.sobre {
+    background-color: rgb(134, 180, 87);
+    display: grid;
+    
+}
+
+.experiencia {
+    background-color: chocolate;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    place-items: center; 
+}
+
+.ano {
+    background-color: rgb(177, 150, 150);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    place-items: center;
+}
+
+.ano .data {
+    background-color: rgb(90, 202, 90);
+    width: 120px;
+    height: 120px;
+    display: grid;
+    place-items: center;
+    color: #fff;
+}
+
+.ano .texto {
+    background-color: rgb(26, 31, 56);
+    width: 120px;
+    height: 120px;
+    display: grid;
+    place-items: center;
+    color: #fff;
+}
+
+.texto {
+    background-color: aqua;
+    display: grid;
+    place-items: center;
+
+}
+
+.descricao {
+    background-color: rgb(59, 36, 19);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 250px;
+    place-items: center; 
+}
+
+.texto .descricao {
+    background-color: rgb(228, 228, 73);
+    height: 120px;
+    display: grid;
+    place-items: center;
+}
+
+.competencia {
+    background-color: red;
+}
