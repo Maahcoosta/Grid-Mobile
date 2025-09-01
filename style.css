@@ -83,10 +83,10 @@ main section {
 .msg-desktop, .msg-mobile {
     font-size: 22px;
     margin-bottom: 20px; /* Adicionado mais espaçamento */
+    color: rgb(0, 0, 0);
 }
 .msg-mobile {
     display: none;
-    color: brown;
 }
 
 /* ========================
@@ -213,6 +213,27 @@ footer {
     color: white;
     padding: 20px; /* Aumentado o padding */
     margin-top: 40px; /* Aumentado a margem superior */
+}
+
+@media(max-width: 600px){
+    body{
+        background-color: #f4f4f9;
+    }
+    nv ul{
+        flex-direction: column;
+    }
+
+    .msg-desktop{
+     display: none;
+}
+.msg-mobile {
+    display: block;
+}
+}
+@media(min-width:601px) and (max-width:768){
+    header h1{
+        font-size:18px;
+    }
 }
 
 /* ========================
